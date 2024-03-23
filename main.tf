@@ -4,35 +4,7 @@
 provider "oci" {
     tenancy_ocid = "ocid1.tenancy.oc1..aaaaaaaawqic5zsm5i23viyi4glifbfp5ofgcuc2wec5j7xvyn5rtlid3tha"
     user_ocid = "ocid1.user.oc1..aaaaaaaas5lhczdufcwvtcfd33cfyda6o7vqaxpsc7f35dmt2yex7nrxdkoq"
-    private_key = " \
-    -----BEGIN PRIVATE KEY----- \
-    MIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDdp+5S/HFHx9gM \
-    GBJD+2O4V9KU9xxbp3NjjNmrOjO/GYOoRbfyvN1tKpM3lYwa9g4w5uxIkM7GNXyH \
-    Rvi0/G3FFfBTTUcYbMHS1/ONqV1dNmezB7OzOiwlvVujiIoyeowzH4qPJa+wadSy \
-    Uo951SsFMuntv/SR3A/zBLOcwebK9JQNdE+3LAtqeYa5Jn27qH89pqVZpLKjjNqf \
-    W+yFOA2XIYdRZsaDnsbiM9soIJ6Py8m9T8rMCEvt3Idp5OM94iOihtwOkRmZ3YZZ \
-    c6YUUi0dO6PgAnb+yOzZvXnHpTAFDR8Cdn5PQiZx4tB+Bab3njc7VMN6X2XDJwOc \
-    Xrg5/b7hAgMBAAECggEAAslxvale40An/z7uO9yVTGQOScExohVg5geHVRfOPsDb \
-    XupBfdPSFOVMJI7EzDH7y7Gblu37K5LQlgLWbbAe0TONaf62vh/f7/63GTjf66Qb \
-    eazHHaHFnFPdKxk0Y54W1S24WERpCRbLjdJr62Q6vj39ovee45aYvL16ZKYreLHE \
-    i9UURvbcwfE0Xp9hOl/big95hBsnib7gJOo6/4q1wC4rSi5TUQffiwhNbP26FsUm \
-    M/lx45Is+avwSAVfkWtQ6sBUjrMsZkHDUtnjr8XwkUdvFQAgetb4hTSTQi+xe7AK \
-    l7nv4r3LhykmJGq9kb7RZ/l8nIJC4UMD3v/TQ1I04QKBgQD43TwhgjMG1dnjh6We \
-    zvtWc3M3gF3ZsvkDT5+Ml/adGsA8bIp9Hv2L16WgSyR0hRQfzhjA8BjFYpTVgcWz \
-    Kxo5AMhOuBkxqv+s5pNtJ/9SXBT1pWJwI+A7keb4/jB4TKCRx/Xo3rK/Epv1BbyP \
-    k5BhyJu9x86DgvGMaXszLQHDFwKBgQDkAvoCssEulUG3IW0Iocapb8nt+p8w5KSm \
-    6Rhc5AahS/BeqzGRq7dr2OUT7+OYfUjCcJEtlRSjLIyuMO2bUoGZNnuo+pdA9uTQ \
-    jxTe7k3HHRygbJRh5QV5TbYMWy38QyKF2Cm2yEVg3JS+Zpz6qEiBUYNnQJYLaKE6 \
-    7CXsdiioxwKBgQD3pS/xKF8eri/k+1cUcWQq4zgEQvkhabfiU5mxjocaT0R83IXz \
-    fKNSRYXLvPrJ+KPOAokfdc0wnqj8zeauJHYzw1ORAiIQCtnidJDATs0EaB1zVOBg \
-    N1Mr9ESkAk65Z4dhilprITE+coY/jTXWqkFDDR3t/KbEt8kmsNCoXGEkgQKBgQC2 \
-    j2+P44Hrg1QHhbrgM2910GzUn1sAccEnZvC7x1NLqBrAIb/hi6SjtBjOmr8XJBCy \
-    piCHZ5sLfyrweXp1Z10eyFHAnUunl0bjefxS9mjN6RA3nlg7/XwhgMgnIoYyOaqV \
-    kdrsX3O1N0fdHxnHVCAhcpuMe1jnr5GQNO20Y3LwlwKBgQDtWCFT0QF8zEF5ilbI \
-    4Mc902rFt+yT3ThHW2Wx+r4eqi6KILAbEUxkJQ6PspGiWMcbvmECW2+xjk/2pnEA \
-    vIhE6Xn2bJfdMbhB3bYy5tcKo4L5Nh9+tWSlQUe7X/SVxCatIrnXK/+q1fmGiINz \
-    H8oaXwJE47v45N6Ctv6F/vsCPQ== \
-    -----END PRIVATE KEY-----"
+	private_key = "-----BEGIN PRIVATE KEY-----MIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDdp+5S/HFHx9gMGBJD+2O4V9KU9xxbp3NjjNmrOjO/GYOoRbfyvN1tKpM3lYwa9g4w5uxIkM7GNXyHRvi0/G3FFfBTTUcYbMHS1/ONqV1dNmezB7OzOiwlvVujiIoyeowzH4qPJa+wadSyUo951SsFMuntv/SR3A/zBLOcwebK9JQNdE+3LAtqeYa5Jn27qH89pqVZpLKjjNqfW+yFOA2XIYdRZsaDnsbiM9soIJ6Py8m9T8rMCEvt3Idp5OM94iOihtwOkRmZ3YZZc6YUUi0dO6PgAnb+yOzZvXnHpTAFDR8Cdn5PQiZx4tB+Bab3njc7VMN6X2XDJwOcXrg5/b7hAgMBAAECggEAAslxvale40An/z7uO9yVTGQOScExohVg5geHVRfOPsDbXupBfdPSFOVMJI7EzDH7y7Gblu37K5LQlgLWbbAe0TONaf62vh/f7/63GTjf66QbeazHHaHFnFPdKxk0Y54W1S24WERpCRbLjdJr62Q6vj39ovee45aYvL16ZKYreLHEi9UURvbcwfE0Xp9hOl/big95hBsnib7gJOo6/4q1wC4rSi5TUQffiwhNbP26FsUmM/lx45Is+avwSAVfkWtQ6sBUjrMsZkHDUtnjr8XwkUdvFQAgetb4hTSTQi+xe7AKl7nv4r3LhykmJGq9kb7RZ/l8nIJC4UMD3v/TQ1I04QKBgQD43TwhgjMG1dnjh6WezvtWc3M3gF3ZsvkDT5+Ml/adGsA8bIp9Hv2L16WgSyR0hRQfzhjA8BjFYpTVgcWzKxo5AMhOuBkxqv+s5pNtJ/9SXBT1pWJwI+A7keb4/jB4TKCRx/Xo3rK/Epv1BbyPk5BhyJu9x86DgvGMaXszLQHDFwKBgQDkAvoCssEulUG3IW0Iocapb8nt+p8w5KSm6Rhc5AahS/BeqzGRq7dr2OUT7+OYfUjCcJEtlRSjLIyuMO2bUoGZNnuo+pdA9uTQjxTe7k3HHRygbJRh5QV5TbYMWy38QyKF2Cm2yEVg3JS+Zpz6qEiBUYNnQJYLaKE67CXsdiioxwKBgQD3pS/xKF8eri/k+1cUcWQq4zgEQvkhabfiU5mxjocaT0R83IXzfKNSRYXLvPrJ+KPOAokfdc0wnqj8zeauJHYzw1ORAiIQCtnidJDATs0EaB1zVOBgN1Mr9ESkAk65Z4dhilprITE+coY/jTXWqkFDDR3t/KbEt8kmsNCoXGEkgQKBgQC2j2+P44Hrg1QHhbrgM2910GzUn1sAccEnZvC7x1NLqBrAIb/hi6SjtBjOmr8XJBCypiCHZ5sLfyrweXp1Z10eyFHAnUunl0bjefxS9mjN6RA3nlg7/XwhgMgnIoYyOaqVkdrsX3O1N0fdHxnHVCAhcpuMe1jnr5GQNO20Y3LwlwKBgQDtWCFT0QF8zEF5ilbI4Mc902rFt+yT3ThHW2Wx+r4eqi6KILAbEUxkJQ6PspGiWMcbvmECW2+xjk/2pnEAvIhE6Xn2bJfdMbhB3bYy5tcKo4L5Nh9+tWSlQUe7X/SVxCatIrnXK/+q1fmGiINzH8oaXwJE47v45N6Ctv6F/vsCPQ==-----END PRIVATE KEY-----"
     fingerprint = "9a:8f:82:ce:36:4d:2b:26:49:f4:ee:6f:c2:e1:35:96"
     region = "us-ashburn-1"
 }
