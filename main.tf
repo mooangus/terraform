@@ -4,8 +4,7 @@
 provider "oci" {
     tenancy_ocid = "ocid1.tenancy.oc1..aaaaaaaawqic5zsm5i23viyi4glifbfp5ofgcuc2wec5j7xvyn5rtlid3tha"
     user_ocid = "ocid1.user.oc1..aaaaaaaas5lhczdufcwvtcfd33cfyda6o7vqaxpsc7f35dmt2yex7nrxdkoq"
-	private_key = <<EOF
-	-----BEGIN PRIVATE KEY-----
+	private_key = <<EOF-----BEGIN PRIVATE KEY-----
 	MIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDdp+5S/HFHx9gM
 	GBJD+2O4V9KU9xxbp3NjjNmrOjO/GYOoRbfyvN1tKpM3lYwa9g4w5uxIkM7GNXyH
 	Rvi0/G3FFfBTTUcYbMHS1/ONqV1dNmezB7OzOiwlvVujiIoyeowzH4qPJa+wadSy
@@ -32,8 +31,7 @@ provider "oci" {
 	4Mc902rFt+yT3ThHW2Wx+r4eqi6KILAbEUxkJQ6PspGiWMcbvmECW2+xjk/2pnEA
 	vIhE6Xn2bJfdMbhB3bYy5tcKo4L5Nh9+tWSlQUe7X/SVxCatIrnXK/+q1fmGiINz
 	H8oaXwJE47v45N6Ctv6F/vsCPQ==
-	-----END PRIVATE KEY-----
-	EOF
+	-----END PRIVATE KEY-----EOF
     fingerprint = "9a:8f:82:ce:36:4d:2b:26:49:f4:ee:6f:c2:e1:35:96"
     region = "us-ashburn-1"
 }
