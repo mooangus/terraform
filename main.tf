@@ -1,4 +1,4 @@
-# Copyright (c) HashiCorp, Inc.
+# Copyright (c) HashiCorp, Inc. ABC
 # SPDX-License-Identifier: MPL-2.0
 
 provider "oci" {
